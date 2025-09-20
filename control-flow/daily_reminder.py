@@ -17,8 +17,4 @@ if time_bound == "yes":
 else:
     message += ". Consider completing it when you have free time."
 
-print("\n====================")
-print("   DAILY REMINDER   ")
-print("====================")
-print(message)
-print("====================\n")
+print("Reminder:", message)
