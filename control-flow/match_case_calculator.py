@@ -11,7 +11,7 @@ match operator:
     case "*":
         print(f"Result: {num1 * num2}")
     case "/":
-        if num2 != 0:
+        if num2 == 0:
             print("Error: Division by zero")
         else:
             
